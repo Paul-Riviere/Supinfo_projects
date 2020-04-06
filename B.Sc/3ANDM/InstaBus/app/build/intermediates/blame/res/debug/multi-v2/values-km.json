@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\paolo\\.gradle\\caches\\transforms-2\\files-2.1\\a83bef444c9240faa8e56c19819ce9ad\\core-1.1.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5581",
+                        "endColumns": "100",
+                        "endOffsets": "5677"
+                    }
+                },
+                {
                     "source": "C:\\Users\\paolo\\.gradle\\caches\\transforms-2\\files-2.1\\ad119311f86266e44274c9cca906c1e2\\jetified-play-services-basement-11.8.0\\res\\values-km\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -35,23 +52,6 @@
                         "startOffsets": "3956",
                         "endColumns": "207",
                         "endOffsets": "4159"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\paolo\\.gradle\\caches\\transforms-2\\files-2.1\\c7e28cf33a8972d116e817b742b7a10c\\core-1.0.2\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5581",
-                        "endColumns": "100",
-                        "endOffsets": "5677"
                     }
                 },
                 {

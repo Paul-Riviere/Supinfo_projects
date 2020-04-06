@@ -1,6 +1,8 @@
 package com.example.instabus.data
 
-class BusStop {
+import java.io.Serializable
+
+class BusStop: Serializable {
     var id: String? = null
     var street_name: String? = null
     var city: String? = null

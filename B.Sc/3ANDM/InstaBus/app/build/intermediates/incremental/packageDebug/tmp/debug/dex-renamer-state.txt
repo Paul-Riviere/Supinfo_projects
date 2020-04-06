@@ -1,4 +1,4 @@
-#Fri Feb 28 01:46:06 CET 2020
+#Sat Feb 29 23:55:20 CET 2020
 base.0=C\:\\Users\\paolo\\Desktop\\Supinfo\\Git projets\\SUPINFO_Projects\\B.Sc\\3ANDM\\InstaBus\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

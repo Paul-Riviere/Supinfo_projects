@@ -13,82 +13,106 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:4:5-67
 11-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:4:22-64
-12    <!-- Include required permissions for Google Maps API to run. -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:23:5-79
-13-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:23:22-76
-14
-15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:26:5-28:35
-16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:27:9-41
-17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:28:9-32
+12
+13    <uses-feature
+13-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:5:5-6:35
+14        android:name="android.hardware.camera"
+14-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:5:19-57
+15        android:required="true" />
+15-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:6:9-32
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:23:22-76
 18
-19    <application
-19-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:5:5-24:19
-20        android:allowBackup="true"
-20-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:6:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.0.2] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\c7e28cf33a8972d116e817b742b7a10c\core-1.0.2\AndroidManifest.xml:22:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:7:9-43
-24        android:label="@string/app_name"
-24-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:8:9-41
-25        android:networkSecurityConfig="@xml/network_security_config"
-25-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:12:9-69
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:9:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:10:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:11:9-40
-30        <activity android:name="com.example.instabus.MainActivity" >
-30-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:13:9-18:20
-30-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:13:19-47
-31            <intent-filter>
-31-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:14:13-17:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:15:17-69
-32-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:15:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:16:17-77
-34-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:16:27-74
-35            </intent-filter>
-36        </activity>
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\6cacd92aa03e98d8332d4ba57c45d828\jetified-play-services-maps-11.8.0\AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:7:5-28:19
+24        android:allowBackup="true"
+24-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:8:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\a83bef444c9240faa8e56c19819ce9ad\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:10:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:14:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:11:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:12:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:13:9-40
+34        <activity android:name="com.example.instabus.MainActivity" >
+34-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:15:9-20:20
+34-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:15:19-47
+35            <intent-filter>
+35-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:16:13-19:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:17:17-69
+36-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:17:25-66
 37
-38        <meta-data
-38-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:19:9-22:15
-39            android:name="com.google.android.maps.v2.API_KEY"
-39-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:20:13-62
-40            android:value="AIzaSyBmTKQ5zcO7BT3c1yT3aUPK0pFgp54elmg" />
-40-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:21:13-68
-41
-42        <uses-library
-42-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:23:9-88
-43            android:name="org.apache.http.legacy"
-43-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:23:23-60
-44            android:required="false" />
-44-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:23:61-85
-45
-46        <activity
-46-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:23:9-26:75
-47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-47-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:24:13-79
-48            android:exported="false"
-48-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:25:13-37
-49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-49-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:26:13-72
-50
-51        <meta-data
-51-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
-52            android:name="com.google.android.gms.version"
-52-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:24:13-58
-53            android:value="@integer/google_play_services_version" />
-53-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:25:13-66
-54    </application>
-55
-56</manifest>
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:18:17-77
+38-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:18:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.instabus.DetailsActivity" />
+41-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:21:9-62
+41-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:21:19-50
+42        <activity android:name="com.example.instabus.PreviewActivity" />
+42-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:22:9-62
+42-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:22:19-50
+43
+44        <meta-data
+44-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:23:9-26:15
+45            android:name="com.google.android.maps.v2.API_KEY"
+45-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:24:13-62
+46            android:value="AIzaSyBmTKQ5zcO7BT3c1yT3aUPK0pFgp54elmg" />
+46-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:25:13-68
+47
+48        <uses-library
+48-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:27:9-88
+49            android:name="org.apache.http.legacy"
+49-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:27:23-60
+50            android:required="false" />
+50-->C:\Users\paolo\Desktop\Supinfo\Git projets\SUPINFO_Projects\B.Sc\3ANDM\InstaBus\app\src\main\AndroidManifest.xml:27:61-85
+51
+52        <activity
+52-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\caf8323ce54476ce56123322854b4f1d\jetified-play-services-base-11.8.0\AndroidManifest.xml:26:13-72
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\ad119311f86266e44274c9cca906c1e2\jetified-play-services-basement-11.8.0\AndroidManifest.xml:25:13-66
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+63            android:authorities="com.example.instabus.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+65            android:multiprocess="true" />
+65-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\paolo\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+66    </application>
+67
+68</manifest>
